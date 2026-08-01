@@ -1,8 +1,25 @@
 aid: rosebud
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rosebud.png
 name: Rosebud
-description: 'Rosebud is a company surfaced as a portfolio company of bessemer-venture-partners, initialized-capital,
-  khosla-ventures and added to the API Evangelist network as a stub for enrichment. Sector: consumer.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'Rosebud is an AI-powered journaling application for personal growth, combining
+  journaling, habit-building, and emotional support in one experience. Users write or
+  speak entries and receive conversational AI feedback, long-term pattern recognition,
+  guided modes (including Internal Family Systems), automated weekly insight reports, and
+  voice journaling, with end-to-end encryption for privacy. It is available on iOS, Android,
+  and the web. Rosebud is a consumer product with no public API, SDK, or developer platform;
+  it is surfaced in the API Evangelist network as a portfolio company of Bessemer Venture
+  Partners, Initialized Capital, and Khosla Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/rosebud/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Journaling
+- Mental Health
+- Wellness
+- Artificial Intelligence
+- Personal Growth
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.rosebud.app/
+- type: Support
+  url: https://help.rosebud.app/
+- type: Blog
+  url: https://www.rosebud.app/blog
+- type: Roadmap
+  url: https://help.rosebud.app/getting-started/roadmap
+- type: TermsOfService
+  url: https://help.rosebud.app/about-us/terms-of-service
+- type: PrivacyPolicy
+  url: https://help.rosebud.app/about-us/privacy-policy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
